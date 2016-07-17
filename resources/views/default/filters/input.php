@@ -1,5 +1,5 @@
 <?php
-/** @var persian\Grids\Filter $filter */
+/** @var Persiang\Grids\Filter $filter */
 ?>
 
 <input

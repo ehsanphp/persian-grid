@@ -1,14 +1,14 @@
 <?php
-namespace persian\Grids\Components;
+namespace Persiang\Grids\Components;
 
-use persian\Grids\Components\Base\RenderableComponent;
+use Persiang\Grids\Components\Base\RenderableComponent;
 
 /**
  * Class ColumnsHider
  *
  * The component renders control for showing/hiding columns.
  *
- * @package persian\Grids\Components
+ * @package Persiang\Grids\Components
  */
 class ColumnsHider extends RenderableComponent
 {

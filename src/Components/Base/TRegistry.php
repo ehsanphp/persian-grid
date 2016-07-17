@@ -1,8 +1,8 @@
 <?php
-namespace persian\Grids\Components\Base;
+namespace Persiang\Grids\Components\Base;
 
 use Illuminate\Support\Collection;
-use persian\Grids\Grid;
+use Persiang\Grids\Grid;
 
 trait TRegistry
 {

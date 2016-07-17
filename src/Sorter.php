@@ -1,12 +1,12 @@
 <?php
-namespace persian\Grids;
+namespace Persiang\Grids;
 
 /**
  * Class Sorter
  *
  * Data sorting manager.
  *
- * @package persian\Grids
+ * @package Persiang\Grids
  */
 class Sorter
 {

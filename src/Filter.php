@@ -1,5 +1,5 @@
 <?php
-namespace persian\Grids;
+namespace Persiang\Grids;
 
 use View;
 

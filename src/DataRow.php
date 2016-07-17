@@ -1,12 +1,12 @@
 <?php
-namespace persian\Grids;
+namespace Persiang\Grids;
 
 /**
  * Class DataRow
  *
  * Abstract class for DataRowInterface implementations
  *
- * @package persian\Grids
+ * @package Persiang\Grids
  */
 abstract class DataRow implements DataRowInterface
 {

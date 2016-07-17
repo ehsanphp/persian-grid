@@ -1,14 +1,14 @@
 <?php
-namespace persian\Grids\Components;
+namespace Persiang\Grids\Components;
 
-use persian\Grids\Grid;
+use Persiang\Grids\Grid;
 
 /**
  * Class ColumnHeadersRow
  *
  * The component for rendering table row with column headers.
  *
- * @package persian\Grids\Components
+ * @package Persiang\Grids\Components
  */
 class ColumnHeadersRow extends HtmlTag
 {

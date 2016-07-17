@@ -4,12 +4,12 @@ Grids
 ### `Data Grids Framework for Laravel`
 
 [![Codacy Badge](https://www.codacy.com/project/badge/4c6955da466a45c1a64972bbfb81fcb7)](https://www.codacy.com/public/mail_2/Grids)
-[![Code Climate](https://codeclimate.com/github/persian/Grids/badges/gpa.svg)](https://codeclimate.com/github/persian/Grids)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/persian/Grids/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/persian/Grids/?branch=master)
-[![Circle CI](https://circleci.com/gh/persian/Grids/tree/master.svg?style=svg)](https://circleci.com/gh/persian/Grids/tree/master)
-[![Release](https://img.shields.io/packagist/v/persian/grids.svg)](https://packagist.org/packages/persian/grids)
-[![HHVM Status](http://hhvm.h4cc.de/badge/persian/grids.svg)](http://hhvm.h4cc.de/package/persian/grids)
-[![Join the chat at https://gitter.im/persian/Grids](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/persian/Grids?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Code Climate](https://codeclimate.com/github/Persiang/Grids/badges/gpa.svg)](https://codeclimate.com/github/Persiang/Grids)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/Persiang/Grids/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/Persiang/Grids/?branch=master)
+[![Circle CI](https://circleci.com/gh/Persiang/Grids/tree/master.svg?style=svg)](https://circleci.com/gh/Persiang/Grids/tree/master)
+[![Release](https://img.shields.io/packagist/v/Persiang/grids.svg)](https://packagist.org/packages/Persiang/grids)
+[![HHVM Status](http://hhvm.h4cc.de/badge/Persiang/grids.svg)](http://hhvm.h4cc.de/package/Persiang/grids)
+[![Join the chat at https://gitter.im/Persiang/Grids](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Persiang/Grids?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
   Laravel 5.2   .
  
@@ -38,7 +38,7 @@ Grids
 
  
 
-[Ask for more features](https://github.com/persian/Grids/issues). You are welcome!
+[Ask for more features](https://github.com/Persiang/Grids/issues). You are welcome!
 
 ## Requirements
 
@@ -50,11 +50,11 @@ Grids
 
 ##### Step 1: Install package using [Composer](https://getcomposer.org)
 
-Add persian/grids to "require" section of your composer.json
+Add Persiang/grids to "require" section of your composer.json
 
 ```javascript
 "require": {
-    "persian/grids":  "^1.0"
+    "Persiang/grids":  "^1.0"
 },
 ```
 
@@ -62,7 +62,7 @@ For Laravel 5 you also need to add "laravelcollective/html":
 
 ```javascript
 "require": {
-    "persian/grids": "^1.2",
+    "Persiang/grids": "^1.2",
     "laravelcollective/html": "^5"
 },
 ```
@@ -76,14 +76,14 @@ Instead of editing composer.json and executing _composer install_ you can just r
  
 For Laravel 5.2
 ```bash    
-php composer.phar require persian/grids laravelcollective/html
+php composer.phar require Persiang/grids laravelcollective/html
 ```
 
 ##### Step 2: Laravel Setup
   
 For Laravel 5.2 you also need to add "illuminate/html" service provider:
 ```php
- persian\Grids\ServiceProvider::class,
+ Persiang\Grids\ServiceProvider::class,
  Collective\Html\HtmlServiceProvider::class,
 ```
 
@@ -91,7 +91,7 @@ You may also add facade aliases to your application configuration:
 ```php
     'Form'  =>  Illuminate\Html\FormFacade::class,
     'HTML'  =>  Collective\Html\HtmlFacade::class,
-    'Grids'     =>  persian\Grids\Grids::class,
+    'Grids'     =>  Persiang\Grids\Grids::class,
 ```
 ## Demo
 
@@ -302,7 +302,7 @@ Quick links:
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 ```
-* persian\Grids\Components\Pager component works only with Laravel 4.X, for Laravel 5 use persian\Grids\Components\Laravel5\Pager
+* Persiang\Grids\Components\Pager component works only with Laravel 4.X, for Laravel 5 use Persiang\Grids\Components\Laravel5\Pager
 
 ##### Working with related Eloquent models
 

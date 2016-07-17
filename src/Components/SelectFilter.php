@@ -1,5 +1,5 @@
 <?php
-namespace persian\Grids\Components;
+namespace Persiang\Grids\Components;
 
 class SelectFilter extends Filter
 {

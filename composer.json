@@ -1,5 +1,5 @@
 {
-    "name": "persian/grids",
+    "name": "Persiang/grids",
     "description": "Grids for Laravel 4 & Laravel 5 frameworks",
     "keywords": [
         "grid",
@@ -12,12 +12,12 @@
         "laravel-5",
         "laravel5"
     ],
-    "homepage": "https://github.com/persian/Grids",
+    "homepage": "https://github.com/Persiang/Grids",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Vitalii [persian] Stepanenko",
+            "name": "Vitalii [Persiang] Stepanenko",
             "email": "mail@vitaliy.in",
             "role": "Developer"
         }
@@ -25,7 +25,7 @@
     "require": {
         "php": ">=5.4.0",
         "illuminate/support": ">=4.2",
-        "persian/builder": "~2"
+        "Persiang/builder": "~2"
     },
     "suggest": {
         "laravelcollective/html": "Required to work with Laravel 5.X",
@@ -33,13 +33,13 @@
     },
     "autoload": {
         "psr-4": {
-            "persian\\Grids\\": "src/"
+            "Persiang\\Grids\\": "src/"
         }
     },
     "support": {
         "email": "mail@vitaliy.in",
-        "source": "https://github.com/persian/Grids",
-        "issues": "https://github.com/persian/Grids/issues"
+        "source": "https://github.com/Persiang/Grids",
+        "issues": "https://github.com/Persiang/Grids/issues"
     },
     "minimum-stability": "dev"
 }

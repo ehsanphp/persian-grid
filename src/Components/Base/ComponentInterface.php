@@ -1,7 +1,7 @@
 <?php
-namespace persian\Grids\Components\Base;
+namespace Persiang\Grids\Components\Base;
 
-use persian\Grids\Grid;
+use Persiang\Grids\Grid;
 
 /**
  * Interface ComponentInterface
@@ -11,7 +11,7 @@ use persian\Grids\Grid;
  * Basically, component is an object that can be attached
  * to grid components hierarchy and react to initialize & prepare calls.
  *
- * @package persian\Grids\Components\Base
+ * @package Persiang\Grids\Components\Base
  */
 interface ComponentInterface extends TaggableInterface
 {

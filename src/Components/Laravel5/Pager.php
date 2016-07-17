@@ -1,10 +1,10 @@
 <?php
-namespace persian\Grids\Components\Laravel5;
+namespace Persiang\Grids\Components\Laravel5;
 
 use Illuminate\Pagination\Paginator;
 use Illuminate\Support\Facades\Input;
-use persian\Grids\Components\Base\RenderableComponent;
-use persian\Grids\Grid;
+use Persiang\Grids\Components\Base\RenderableComponent;
+use Persiang\Grids\Grid;
 
 class Pager extends RenderableComponent
 {

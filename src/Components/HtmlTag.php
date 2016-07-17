@@ -1,7 +1,7 @@
 <?php
-namespace persian\Grids\Components;
+namespace Persiang\Grids\Components;
 
-use persian\Grids\Components\Base\RenderableRegistry;
+use Persiang\Grids\Components\Base\RenderableRegistry;
 
 class HtmlTag extends RenderableRegistry
 {
