@@ -3,14 +3,8 @@ Grids
 
 ### `Data Grids Framework for Laravel`
 
-[![Codacy Badge](https://www.codacy.com/project/badge/4c6955da466a45c1a64972bbfb81fcb7)](https://www.codacy.com/public/mail_2/Grids)
-[![Code Climate](https://codeclimate.com/github/Persiang/Grids/badges/gpa.svg)](https://codeclimate.com/github/Persiang/Grids)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/Persiang/Grids/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/Persiang/Grids/?branch=master)
-[![Circle CI](https://circleci.com/gh/Persiang/Grids/tree/master.svg?style=svg)](https://circleci.com/gh/Persiang/Grids/tree/master)
-[![Release](https://img.shields.io/packagist/v/Persiang/grids.svg)](https://packagist.org/packages/Persiang/grids)
-[![HHVM Status](http://hhvm.h4cc.de/badge/Persiang/grids.svg)](http://hhvm.h4cc.de/package/Persiang/grids)
-[![Join the chat at https://gitter.im/Persiang/Grids](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Persiang/Grids?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
+    [![Release](https://img.shields.io/packagist/v/persiang/grids.svg)](https://packagist.org/packages/persiang/grids)
+  
   Laravel 5.2   .
  
 
@@ -38,7 +32,7 @@ Grids
 
  
 
-[Ask for more features](https://github.com/Persiang/Grids/issues). You are welcome!
+[Ask for more features](https://github.com/persiang/Grids/issues). You are welcome!
 
 ## Requirements
 
@@ -50,11 +44,11 @@ Grids
 
 ##### Step 1: Install package using [Composer](https://getcomposer.org)
 
-Add Persiang/grids to "require" section of your composer.json
+Add persiang/grids to "require" section of your composer.json
 
 ```javascript
 "require": {
-    "Persiang/grids":  "^1.0"
+    "persiang/grids":  "^1.0"
 },
 ```
 
@@ -62,7 +56,7 @@ For Laravel 5 you also need to add "laravelcollective/html":
 
 ```javascript
 "require": {
-    "Persiang/grids": "^1.2",
+    "persiang/grids": "^1.2",
     "laravelcollective/html": "^5"
 },
 ```
@@ -76,14 +70,14 @@ Instead of editing composer.json and executing _composer install_ you can just r
  
 For Laravel 5.2
 ```bash    
-php composer.phar require Persiang/grids laravelcollective/html
+php composer.phar require persiang/grids laravelcollective/html
 ```
 
 ##### Step 2: Laravel Setup
   
 For Laravel 5.2 you also need to add "illuminate/html" service provider:
 ```php
- Persiang\Grids\ServiceProvider::class,
+ persiang\Grids\ServiceProvider::class,
  Collective\Html\HtmlServiceProvider::class,
 ```
 
@@ -91,7 +85,7 @@ You may also add facade aliases to your application configuration:
 ```php
     'Form'  =>  Illuminate\Html\FormFacade::class,
     'HTML'  =>  Collective\Html\HtmlFacade::class,
-    'Grids'     =>  Persiang\Grids\Grids::class,
+    'Grids'     =>  persiang\Grids\Grids::class,
 ```
 ## Demo
 
@@ -302,7 +296,7 @@ Quick links:
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 ```
-* Persiang\Grids\Components\Pager component works only with Laravel 4.X, for Laravel 5 use Persiang\Grids\Components\Laravel5\Pager
+* persiang\Grids\Components\Pager component works only with Laravel 4.X, for Laravel 5 use persiang\Grids\Components\Laravel5\Pager
 
 ##### Working with related Eloquent models
 

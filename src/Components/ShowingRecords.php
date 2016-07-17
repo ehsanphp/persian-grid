@@ -1,14 +1,14 @@
 <?php
-namespace Persiang\Grids\Components;
+namespace persiang\Grids\Components;
 
-use Persiang\Grids\Components\Base\RenderableComponent;
+use persiang\Grids\Components\Base\RenderableComponent;
 
 /**
  * Class ShowingRecords
  *
  * Renders text: Showing records $from — $to of $total
  *
- * @package Persiang\Grids\Components
+ * @package persiang\Grids\Components
  */
 class ShowingRecords extends RenderableComponent
 {

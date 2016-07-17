@@ -1,5 +1,5 @@
 <?php
-/** @var Persiang\Grids\Components\Filter $component */
+/** @var persiang\Grids\Components\Filter $component */
 $id = uniqid();
 ?>
 <?php if($component->getLabel()): ?>

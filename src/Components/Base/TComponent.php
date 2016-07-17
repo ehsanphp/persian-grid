@@ -1,16 +1,16 @@
 <?php
-namespace Persiang\Grids\Components\Base;
+namespace persiang\Grids\Components\Base;
 
-use Persiang\Grids\Grid;
+use persiang\Grids\Grid;
 
 /**
  * Class TComponent
  *
  * ComponentInterface interface implementation.
  *
- * @see Persiang\Grids\Components\Base\ComponentInterface
+ * @see persiang\Grids\Components\Base\ComponentInterface
  *
- * @package Persiang\Grids\Components\Base
+ * @package persiang\Grids\Components\Base
  */
 trait TComponent
 {

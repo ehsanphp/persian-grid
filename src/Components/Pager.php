@@ -1,11 +1,11 @@
 <?php
-namespace Persiang\Grids\Components;
+namespace persiang\Grids\Components;
 
 use DomainException;
 use Illuminate\Foundation\Application;
 use Illuminate\Pagination\Paginator;
-use Persiang\Grids\Components\Base\RenderableComponent;
-use Persiang\Grids\Grid;
+use persiang\Grids\Components\Base\RenderableComponent;
+use persiang\Grids\Grid;
 
 class Pager extends RenderableComponent
 {

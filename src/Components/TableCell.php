@@ -1,15 +1,15 @@
 <?php
 
-namespace Persiang\Grids\Components;
+namespace persiang\Grids\Components;
 
-use Persiang\Grids\FieldConfig;
+use persiang\Grids\FieldConfig;
 
 /**
  * Class TableCell
  * 
  * The component for rendering TD html tag inside grid.
  *
- * @package Persiang\Grids\Components
+ * @package persiang\Grids\Components
  */
 class TableCell extends HtmlTag
 {

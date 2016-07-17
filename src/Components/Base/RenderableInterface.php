@@ -1,12 +1,12 @@
 <?php
-namespace Persiang\Grids\Components\Base;
+namespace persiang\Grids\Components\Base;
 
 /**
  * Interface RenderableInterface
  *
  * Interface for objects that can be rendered.
  *
- * @package Persiang\Grids\Components\Base
+ * @package persiang\Grids\Components\Base
  */
 interface RenderableInterface
 {

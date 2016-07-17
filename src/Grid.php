@@ -1,10 +1,10 @@
 <?php
-namespace Persiang\Grids;
+namespace persiang\Grids;
 
 use Event;
 use Cache;
-use Persiang\Grids\Components\TFoot;
-use Persiang\Grids\Components\THead;
+use persiang\Grids\Components\TFoot;
+use persiang\Grids\Components\THead;
 use View;
 
 class Grid

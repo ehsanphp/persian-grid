@@ -1,12 +1,12 @@
 <?php
-namespace Persiang\Grids;
+namespace persiang\Grids;
 
 /**
  * Interface DataRowInterface
  *
  * Interface for row of data received from data provider.
  *
- * @package Persiang\Grids
+ * @package persiang\Grids
  */
 interface DataRowInterface
 {

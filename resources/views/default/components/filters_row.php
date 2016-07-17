@@ -1,7 +1,7 @@
 <?php # ========== FILTERS ROW ==========
 /**
- * @var Persiang\Grids\Components\FiltersRow $component
- * @var Persiang\Grids\FieldConfig $column
+ * @var persiang\Grids\Components\FiltersRow $component
+ * @var persiang\Grids\FieldConfig $column
  */
 ?>
 <?php if($grid->getFiltering()->available()): ?>

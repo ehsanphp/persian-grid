@@ -1,5 +1,5 @@
 <?php
-namespace Persiang\Grids;
+namespace persiang\Grids;
 
 use Illuminate\Database\Eloquent\Builder;
 use Event;

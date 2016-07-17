@@ -2,7 +2,7 @@ destination: doc
 source:
 	- src
 	
-title: Persiang/Grids API Documentation
+title: persiang/Grids API Documentation
 sourceCode: true
 tree: true
 download: true

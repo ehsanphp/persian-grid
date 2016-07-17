@@ -1,16 +1,16 @@
 <?php
-namespace Persiang\Grids\Components;
+namespace persiang\Grids\Components;
 
 use LogicException;
-use Persiang\Grids\Components\Base\RenderableComponentInterface;
-use Persiang\Grids\Components\Base\TComponent;
-use Persiang\Grids\Components\Base\TComponentView;
-use Persiang\Grids\ArrayDataRow;
-use Persiang\Grids\DataProvider;
-use Persiang\Grids\DataRow;
-use Persiang\Grids\FieldConfig;
-use Persiang\Grids\IdFieldConfig;
-use Persiang\Grids\Grid;
+use persiang\Grids\Components\Base\RenderableComponentInterface;
+use persiang\Grids\Components\Base\TComponent;
+use persiang\Grids\Components\Base\TComponentView;
+use persiang\Grids\ArrayDataRow;
+use persiang\Grids\DataProvider;
+use persiang\Grids\DataRow;
+use persiang\Grids\FieldConfig;
+use persiang\Grids\IdFieldConfig;
+use persiang\Grids\Grid;
 use Illuminate\Support\Facades\Event;
 
 /**
@@ -18,7 +18,7 @@ use Illuminate\Support\Facades\Event;
  *
  * The component renders row with totals for current page.
  *
- * @package Persiang\Grids\Components
+ * @package persiang\Grids\Components
  */
 class TotalsRow extends ArrayDataRow implements RenderableComponentInterface
 {

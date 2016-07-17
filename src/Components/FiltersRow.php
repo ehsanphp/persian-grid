@@ -1,14 +1,14 @@
 <?php
-namespace Persiang\Grids\Components;
+namespace persiang\Grids\Components;
 
-use Persiang\Grids\Components\Base\RenderableRegistry;
+use persiang\Grids\Components\Base\RenderableRegistry;
 
 /**
  * Class FiltersRow
  *
  * provides additional render sections for columns: 'filters_row_column_<name>'
  *
- * @package Persiang\Grids\Components
+ * @package persiang\Grids\Components
  */
 class FiltersRow extends RenderableRegistry
 {

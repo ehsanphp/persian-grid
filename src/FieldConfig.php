@@ -1,5 +1,5 @@
 <?php
-namespace Persiang\Grids;
+namespace persiang\Grids;
 
 use Illuminate\Support\Collection;
 
@@ -8,7 +8,7 @@ use Illuminate\Support\Collection;
  *
  * This class describes grid column.
  *
- * @package Persiang\Grids
+ * @package persiang\Grids
  */
 class FieldConfig
 {
@@ -289,7 +289,7 @@ class FieldConfig
      * @param string $class
      * @return FilterConfig
      */
-    public function makeFilter($class = '\Persiang\Grids\FilterConfig')
+    public function makeFilter($class = '\persiang\Grids\FilterConfig')
     {
         $filter = new $class;
         $this->addFilter($filter);

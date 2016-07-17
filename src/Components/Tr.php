@@ -1,14 +1,14 @@
 <?php
-namespace Persiang\Grids\Components;
+namespace persiang\Grids\Components;
 
-use Persiang\Grids\DataRowInterface;
+use persiang\Grids\DataRowInterface;
 
 /**
  * Class Tr
  *
  * The component for rendering TR html tag inside grid.
  *
- * @package Persiang\Grids\Components
+ * @package persiang\Grids\Components
  */
 class Tr extends HtmlTag
 {

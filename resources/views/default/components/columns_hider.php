@@ -1,4 +1,4 @@
-<?php /** @var Persiang\Grids\Components\ColumnsHider $component */ ?>
+<?php /** @var persiang\Grids\Components\ColumnsHider $component */ ?>
 <span data-role="columns-hider" id="<?= $component->getId('container') ?>" >
     <button
         id="<?= $component->getId('btn') ?>"
@@ -23,7 +23,7 @@
                 </label>
             </li>
             <?php foreach($columns as $column):
-            /** @var Persiang\Grids\FieldConfig $column */
+            /** @var persiang\Grids\FieldConfig $column */
             ?>
             <li>
                 <label>
