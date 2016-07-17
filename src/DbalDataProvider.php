@@ -1,5 +1,5 @@
 <?php
-namespace Nayjest\Grids;
+namespace persian\Grids;
 
 use DB;
 use Doctrine\DBAL\Query\QueryBuilder;
@@ -178,14 +178,14 @@ class DbalDataProvider extends DataProvider
                 $operator = '>=';    
                 break;
             case "in":
-                // may be broken, @see https://github.com/Nayjest/Grids/issues/109
+                // may be broken, @see https://github.com/persian/Grids/issues/109
                 $operator = 'IN';
                 if (!is_array($value)) {
                     $operator = '=';
                 }
                 break;
         }
-        $parameterName = str_replace(".", "_", $fieldName); // @see https://github.com/Nayjest/Grids/issues/111
+        $parameterName = str_replace(".", "_", $fieldName); // @see https://github.com/persian/Grids/issues/111
         $this->src->andWhere("$fieldName $operator :$parameterName");
         $this->src->setParameter($parameterName, $value);
         return $this;

@@ -1,19 +1,19 @@
 <?php
 
-namespace Nayjest\Grids\Build\Instructions;
+namespace persian\Grids\Build\Instructions;
 
 use LogicException;
-use Nayjest\Builder\Instructions\Base\Instruction;
-use Nayjest\Builder\Scaffold;
+use persian\Builder\Instructions\Base\Instruction;
+use persian\Builder\Scaffold;
 
 /**
  * Class BuildDataProvider
  *
- * This class is a build instruction for nayjest/build package
+ * This class is a build instruction for persian/build package
  * that defines how to setup grids data provider
  *
  * @internal
- * @package Nayjest\Grids\Build\Instructions
+ * @package persian\Grids\Build\Instructions
  */
 class BuildDataProvider extends Instruction
 {
@@ -32,10 +32,10 @@ class BuildDataProvider extends Instruction
 
         if (is_object($src)) {
             if (is_a($src, '\Illuminate\Database\Eloquent\Builder')) {
-                $class = '\Nayjest\Grids\EloquentDataProvider';
+                $class = '\persian\Grids\EloquentDataProvider';
                 $arg = $src;
             } elseif (is_a($src, '\Doctrine\DBAL\Query\QueryBuilder')) {
-                $class = '\Nayjest\Grids\DbalDataProvider';
+                $class = '\persian\Grids\DbalDataProvider';
                 $arg = $src;
             }
 
@@ -45,7 +45,7 @@ class BuildDataProvider extends Instruction
                 class_exists($src, true) &&
                 is_subclass_of($src, '\Illuminate\Database\Eloquent\Model')
             ) {
-                $class = '\Nayjest\Grids\EloquentDataProvider';
+                $class = '\persian\Grids\EloquentDataProvider';
                 $model = new $src;
                 $arg = $model->newQuery();
             }

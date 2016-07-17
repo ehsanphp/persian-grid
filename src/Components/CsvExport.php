@@ -1,14 +1,14 @@
 <?php
 
-namespace Nayjest\Grids\Components;
+namespace persian\Grids\Components;
 
 use Event;
 use Illuminate\Http\Response;
-use Nayjest\Grids\Components\Base\RenderableComponent;
-use Nayjest\Grids\Components\Base\RenderableRegistry;
-use Nayjest\Grids\DataProvider;
-use Nayjest\Grids\DataRow;
-use Nayjest\Grids\Grid;
+use persian\Grids\Components\Base\RenderableComponent;
+use persian\Grids\Components\Base\RenderableRegistry;
+use persian\Grids\DataProvider;
+use persian\Grids\DataRow;
+use persian\Grids\Grid;
 
 /**
  * Class CsvExport
@@ -16,7 +16,7 @@ use Nayjest\Grids\Grid;
  * The component provides control for exporting data to CSV.
  *
  * @author: Vitaliy Ofat <i@vitaliy-ofat.com>
- * @package Nayjest\Grids\Components
+ * @package persian\Grids\Components
  */
 class CsvExport extends RenderableComponent
 {

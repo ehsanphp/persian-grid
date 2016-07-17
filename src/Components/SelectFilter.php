@@ -1,5 +1,5 @@
 <?php
-namespace Nayjest\Grids\Components;
+namespace persian\Grids\Components;
 
 class SelectFilter extends Filter
 {

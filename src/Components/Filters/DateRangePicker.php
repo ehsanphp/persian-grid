@@ -1,9 +1,9 @@
 <?php
-namespace Nayjest\Grids\Components\Filters;
+namespace persian\Grids\Components\Filters;
 
 use Carbon\Carbon;
-use Nayjest\Grids\Components\Filter;
-use Nayjest\Grids\DataProvider;
+use persian\Grids\Components\Filter;
+use persian\Grids\DataProvider;
 
 /**
  * Class DateRangePicker
@@ -14,7 +14,7 @@ use Nayjest\Grids\DataProvider;
  * This component does not includes javascript & styles required to work with bootstrap-daterangepicker.
  * You need to include it manually to your pages/layout.
  *
- * @package Nayjest\Grids\Components\Filters
+ * @package persian\Grids\Components\Filters
  */
 class DateRangePicker extends Filter
 {

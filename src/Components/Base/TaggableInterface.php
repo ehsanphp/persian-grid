@@ -1,10 +1,10 @@
 <?php
-namespace Nayjest\Grids\Components\Base;
+namespace persian\Grids\Components\Base;
 
 /**
  * Interface TaggableInterface
  * @deprecated
- * @package Nayjest\Grids\Components\Base
+ * @package persian\Grids\Components\Base
  */
 interface TaggableInterface
 {

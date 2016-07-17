@@ -1,7 +1,7 @@
 <?php
-namespace Nayjest\Grids\Components;
+namespace persian\Grids\Components;
 
-use Nayjest\Grids\Components\Base\RenderableRegistry;
+use persian\Grids\Components\Base\RenderableRegistry;
 
 class OneCellRow extends RenderableRegistry
 {

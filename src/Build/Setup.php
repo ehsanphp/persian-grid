@@ -1,42 +1,42 @@
 <?php
-namespace Nayjest\Grids\Build;
+namespace persian\Grids\Build;
 
 use Closure;
 use DB;
 use LogicException;
-use Nayjest\Builder\Blueprint;
-use Nayjest\Builder\BlueprintsCollection;
-use Nayjest\Builder\Builder;
-use Nayjest\Builder\Env;
-use Nayjest\Builder\Instructions\Base\Instruction;
-use Nayjest\Builder\Instructions\Mapping\Build;
-use Nayjest\Builder\Instructions\Mapping\BuildChildren;
-use Nayjest\Builder\Instructions\CustomInstruction;
-use Nayjest\Builder\Instructions\Mapping\CallMethodWith;
-use Nayjest\Builder\Instructions\Mapping\CustomMapping;
-use Nayjest\Builder\Instructions\Mapping\Rename;
-use Nayjest\Builder\Instructions\SimpleValueAsField;
-use Nayjest\Builder\Scaffold;
-use Nayjest\Grids\Build\Instructions\BuildDataProvider;
-use Nayjest\Grids\EloquentDataProvider;
+use persian\Builder\Blueprint;
+use persian\Builder\BlueprintsCollection;
+use persian\Builder\Builder;
+use persian\Builder\Env;
+use persian\Builder\Instructions\Base\Instruction;
+use persian\Builder\Instructions\Mapping\Build;
+use persian\Builder\Instructions\Mapping\BuildChildren;
+use persian\Builder\Instructions\CustomInstruction;
+use persian\Builder\Instructions\Mapping\CallMethodWith;
+use persian\Builder\Instructions\Mapping\CustomMapping;
+use persian\Builder\Instructions\Mapping\Rename;
+use persian\Builder\Instructions\SimpleValueAsField;
+use persian\Builder\Scaffold;
+use persian\Grids\Build\Instructions\BuildDataProvider;
+use persian\Grids\EloquentDataProvider;
 
 /**
  * Class Setup
  *
- * This class prepares environment for nayjest/builder package for usage with grids.
- * Integration with nayjest/builder package allows to construct grids from configuration in form of php array.
+ * This class prepares environment for persian/builder package for usage with grids.
+ * Integration with persian/builder package allows to construct grids from configuration in form of php array.
  *
  * @See \Grids::make
  *
  * @internal
- * @package Nayjest\Grids\Build
+ * @package persian\Grids\Build
  */
 class Setup
 {
-    const COLUMN_CLASS = 'Nayjest\Grids\FieldConfig';
-    const COMPONENT_CLASS = 'Nayjest\Grids\Components\Base\ComponentInterface';
-    const GRID_CLASS = 'Nayjest\Grids\GridConfig';
-    const FILTER_CLASS = 'Nayjest\Grids\FilterConfig';
+    const COLUMN_CLASS = 'persian\Grids\FieldConfig';
+    const COMPONENT_CLASS = 'persian\Grids\Components\Base\ComponentInterface';
+    const GRID_CLASS = 'persian\Grids\GridConfig';
+    const FILTER_CLASS = 'persian\Grids\FilterConfig';
 
     /**
      * @var BlueprintsCollection
@@ -121,11 +121,11 @@ class Setup
 
             new CustomInstruction(function (Scaffold $s) {
                 if ($s->input instanceof Closure) {
-                    $s->class = 'Nayjest\Grids\Components\RenderFunc';
+                    $s->class = 'persian\Grids\Components\RenderFunc';
                     $s->constructor_arguments = [$s->input];
                     $s->input = [];
                 } elseif (is_string($s->input)) {
-                    $s->class = 'Nayjest\Grids\Components\RenderFunc';
+                    $s->class = 'persian\Grids\Components\RenderFunc';
                     $out = $s->input;
                     $s->constructor_arguments = [function () use ($out) {
                         return $out;
@@ -137,7 +137,7 @@ class Setup
                 if (strpos($type, '\\') !== false) {
                     $s->class = $type;
                 } else {
-                    $s->class = 'Nayjest\Grids\Components\\' . str_replace(
+                    $s->class = 'persian\Grids\Components\\' . str_replace(
                             ' ',
                             '',
                             ucwords(str_replace(array('-', '_'), ' ', $type))
@@ -166,7 +166,7 @@ class Setup
             new CustomMapping('type', function ($type, Scaffold $s) {
                 switch($type) {
                     case 'select':
-                        $s->class = 'Nayjest\Grids\SelectFilterConfig';
+                        $s->class = 'persian\Grids\SelectFilterConfig';
                         break;
                     default:
                         break;

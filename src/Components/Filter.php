@@ -1,8 +1,8 @@
 <?php
-namespace Nayjest\Grids\Components;
+namespace persian\Grids\Components;
 
 
-use Nayjest\Grids\Components\Base\RenderableComponent;
+use persian\Grids\Components\Base\RenderableComponent;
 
 class Filter extends RenderableComponent
 {

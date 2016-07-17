@@ -2,9 +2,9 @@
 /**
  * @author: Vitaliy Ofat <i@vitaliy-ofat.com>
  *
- * @var $grid Nayjest\Grids\Grid
+ * @var $grid persian\Grids\Grid
  */
-use Nayjest\Grids\Components\CsvExport;
+use persian\Grids\Components\CsvExport;
 ?>
 <span>
     <a

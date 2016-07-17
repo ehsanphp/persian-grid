@@ -1,5 +1,5 @@
 <?php
-namespace Nayjest\Grids\Components\Base;
+namespace persian\Grids\Components\Base;
 
 trait TComponentView
 {

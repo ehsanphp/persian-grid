@@ -1,14 +1,14 @@
 <?php
-namespace Nayjest\Grids\Components;
+namespace persian\Grids\Components;
 
-use Nayjest\Grids\Components\Base\RenderableRegistry;
+use persian\Grids\Components\Base\RenderableRegistry;
 
 /**
  * Class FiltersRow
  *
  * provides additional render sections for columns: 'filters_row_column_<name>'
  *
- * @package Nayjest\Grids\Components
+ * @package persian\Grids\Components
  */
 class FiltersRow extends RenderableRegistry
 {

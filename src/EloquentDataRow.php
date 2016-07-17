@@ -1,10 +1,10 @@
 <?php
-namespace Nayjest\Grids;
+namespace persian\Grids;
 
 /**
  * @deprecated
  * Class EloquentDataRow
- * @package Nayjest\Grids
+ * @package persian\Grids
  */
 class EloquentDataRow extends ObjectDataRow
 {

@@ -1,12 +1,12 @@
 <?php
-namespace Nayjest\Grids;
+namespace persian\Grids;
 
 /**
  * Class Sorter
  *
  * Data sorting manager.
  *
- * @package Nayjest\Grids
+ * @package persian\Grids
  */
 class Sorter
 {

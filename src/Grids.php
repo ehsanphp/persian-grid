@@ -1,15 +1,15 @@
 <?php
-namespace Nayjest\Grids;
+namespace persian\Grids;
 
-use Nayjest\Builder\Env;
-use Nayjest\Grids\Build\Setup;
+use persian\Builder\Env;
+use persian\Grids\Build\Setup;
 
 /**
  * Class Grids
  *
  * Facade for constructing grids using configurations.
  *
- * @package Nayjest\Grids
+ * @package persian\Grids
  */
 class Grids {
 
@@ -18,7 +18,7 @@ class Grids {
     /**
      * Returns builder instance.
      *
-     * @return \Nayjest\Builder\Builder
+     * @return \persian\Builder\Builder
      */
     protected static function getBuilder()
     {
@@ -47,7 +47,7 @@ class Grids {
      * Returns collection containing
      * blueprints required to construct grids from configuration.
      *
-     * @return \Nayjest\Builder\BlueprintsCollection
+     * @return \persian\Builder\BlueprintsCollection
      */
     public static function blueprints()
     {
