@@ -1,10 +1,10 @@
 <?php
-namespace Persiang\Grids\Components\Base;
+namespace persiang\Grids\Components\Base;
 
 /**
  * Interface TaggableInterface
  * @deprecated
- * @package Persiang\Grids\Components\Base
+ * @package persiang\Grids\Components\Base
  */
 interface TaggableInterface
 {

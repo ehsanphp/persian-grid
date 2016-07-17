@@ -1,17 +1,17 @@
 <?php
 
-namespace Persiang\Grids\Components;
+namespace persiang\Grids\Components;
 
 use Event;
 use Maatwebsite\Excel\Classes\LaravelExcelWorksheet;
 use Maatwebsite\Excel\Excel;
 use Maatwebsite\Excel\Writers\LaravelExcelWriter;
-use Persiang\Grids\Components\Base\RenderableComponent;
-use Persiang\Grids\Components\Base\RenderableRegistry;
-use Persiang\Grids\DataProvider;
-use Persiang\Grids\DataRow;
-use Persiang\Grids\FieldConfig;
-use Persiang\Grids\Grid;
+use persiang\Grids\Components\Base\RenderableComponent;
+use persiang\Grids\Components\Base\RenderableRegistry;
+use persiang\Grids\DataProvider;
+use persiang\Grids\DataRow;
+use persiang\Grids\FieldConfig;
+use persiang\Grids\Grid;
 
 /**
  * Class ExcelExport
@@ -19,7 +19,7 @@ use Persiang\Grids\Grid;
  * The component provides control for exporting data to excel.
  *
  * @author: Alexander Hofmeister
- * @package Persiang\Grids\Components
+ * @package persiang\Grids\Components
  */
 class ExcelExport extends RenderableComponent
 {

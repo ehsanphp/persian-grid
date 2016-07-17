@@ -1,9 +1,9 @@
 <?php
-namespace Persiang\Grids;
+namespace persiang\Grids;
 
 /**
  * Class DataProvider
- * @package Persiang\Grids
+ * @package persiang\Grids
  */
 abstract class DataProvider
 {

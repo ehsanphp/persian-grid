@@ -1,6 +1,6 @@
 <?php
 
-namespace Persiang\Grids;
+namespace persiang\Grids;
 
 class SelectFilterConfig extends FilterConfig
 {

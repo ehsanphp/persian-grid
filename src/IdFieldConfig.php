@@ -1,12 +1,12 @@
 <?php
-namespace Persiang\Grids;
+namespace persiang\Grids;
 
 /**
  * Class IdFieldConfig
  *
  * IdFieldConfig is a column type that will render a row number in table rows.
  *
- * @package Persiang\Grids
+ * @package persiang\Grids
  */
 class IdFieldConfig extends FieldConfig
 {

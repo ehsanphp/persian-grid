@@ -1,4 +1,4 @@
-<?php namespace Persiang\Grids;
+<?php namespace persiang\Grids;
 
 use Illuminate\Foundation\Application;
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
@@ -35,7 +35,7 @@ class ServiceProvider extends BaseServiceProvider
 
         # only for Laravel 4 & some of 5-dev
         if (version_compare(Application::VERSION, '5.0.0', '<')) {
-            $this->package('Persiang/grids');
+            $this->package('persiang/grids');
             $this->app['view']->addNamespace('grids', $views_path);
         } else {
             $this->loadViewsFrom($views_path, 'grids');
@@ -45,7 +45,7 @@ class ServiceProvider extends BaseServiceProvider
             ]);
         }
         if (!class_exists('Grids')) {
-            class_alias('\\Persiang\\Grids\\Grids', '\\Grids');
+            class_alias('\\persiang\\Grids\\Grids', '\\Grids');
         }
     }
 

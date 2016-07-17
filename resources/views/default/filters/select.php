@@ -1,6 +1,6 @@
 <?php
-/** @var Persiang\Grids\Filter $filter */
-/** @var Persiang\Grids\SelectFilterConfig $cfg */
+/** @var persiang\Grids\Filter $filter */
+/** @var persiang\Grids\SelectFilterConfig $cfg */
 $cfg = $filter->getConfig();
 $onchange = '';
 if (method_exists($cfg, 'isSubmittedOnChange') && $cfg->isSubmittedOnChange()) {

@@ -2,9 +2,9 @@
 /**
  * @author: Vitaliy Ofat <i@vitaliy-ofat.com>
  *
- * @var $grid Persiang\Grids\Grid
+ * @var $grid persiang\Grids\Grid
  */
-use Persiang\Grids\Components\CsvExport;
+use persiang\Grids\Components\CsvExport;
 ?>
 <span>
     <a

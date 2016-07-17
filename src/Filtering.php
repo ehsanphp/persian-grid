@@ -1,5 +1,5 @@
 <?php
-namespace Persiang\Grids;
+namespace persiang\Grids;
 
 use Illuminate\Support\Collection;
 
@@ -8,7 +8,7 @@ use Illuminate\Support\Collection;
  *
  * This class manages data filtering.
  *
- * @package Persiang\Grids
+ * @package persiang\Grids
  */
 class Filtering
 {

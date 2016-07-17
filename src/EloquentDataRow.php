@@ -1,10 +1,10 @@
 <?php
-namespace Persiang\Grids;
+namespace persiang\Grids;
 
 /**
  * @deprecated
  * Class EloquentDataRow
- * @package Persiang\Grids
+ * @package persiang\Grids
  */
 class EloquentDataRow extends ObjectDataRow
 {

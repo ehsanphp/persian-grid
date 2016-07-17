@@ -1,12 +1,12 @@
 <?php
-namespace Persiang\Grids\Components;
+namespace persiang\Grids\Components;
 
 /**
  * Class THead
  *
  * The component for rendering THEAD html tag inside grid.
  *
- * @package Persiang\Grids\Components
+ * @package persiang\Grids\Components
  */
 class THead extends HtmlTag
 {
@@ -15,7 +15,7 @@ class THead extends HtmlTag
     /**
      * Returns default set of child components.
      *
-     * @return \Persiang\Grids\Components\Base\ComponentInterface[]
+     * @return \persiang\Grids\Components\Base\ComponentInterface[]
      */
     protected function getDefaultComponents()
     {

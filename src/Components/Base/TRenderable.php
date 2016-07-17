@@ -1,5 +1,5 @@
 <?php
-namespace Persiang\Grids\Components\Base;
+namespace persiang\Grids\Components\Base;
 
 use View;
 
@@ -11,7 +11,7 @@ use View;
  * @todo Avoid usage of Laravel Facade aliases (?)
  * @todo Absence of getViewData isn't convenient (?)
  *
- * @package Persiang\Grids\Components\Base
+ * @package persiang\Grids\Components\Base
  */
 trait TRenderable
 {

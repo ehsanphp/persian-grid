@@ -1,14 +1,14 @@
 <?php
-namespace Persiang\Grids\Components;
+namespace persiang\Grids\Components;
 
-use Persiang\Grids\Components\Base\RenderableComponent;
+use persiang\Grids\Components\Base\RenderableComponent;
 
 /**
  * Class RenderFunc
  *
  * The component prints value returned by specified PHP function.
  *
- * @package Persiang\Grids\Components
+ * @package persiang\Grids\Components
  */
 class RenderFunc extends RenderableComponent
 {

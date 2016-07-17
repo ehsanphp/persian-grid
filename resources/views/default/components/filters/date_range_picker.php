@@ -1,5 +1,5 @@
 <?php
-/** @var Persiang\Grids\Components\Filters\DateRangePicker $component */
+/** @var persiang\Grids\Components\Filters\DateRangePicker $component */
 $id = uniqid();
 ?>
 <?php if($component->getLabel()): ?>

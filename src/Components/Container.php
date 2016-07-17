@@ -1,7 +1,7 @@
 <?php
-namespace Persiang\Grids\Components;
+namespace persiang\Grids\Components;
 
-use Persiang\Grids\Components\Base\RenderableRegistry;
+use persiang\Grids\Components\Base\RenderableRegistry;
 
 class Container extends RenderableRegistry
 {

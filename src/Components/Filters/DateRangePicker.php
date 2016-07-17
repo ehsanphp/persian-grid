@@ -1,9 +1,9 @@
 <?php
-namespace Persiang\Grids\Components\Filters;
+namespace persiang\Grids\Components\Filters;
 
 use Carbon\Carbon;
-use Persiang\Grids\Components\Filter;
-use Persiang\Grids\DataProvider;
+use persiang\Grids\Components\Filter;
+use persiang\Grids\DataProvider;
 
 /**
  * Class DateRangePicker
@@ -14,7 +14,7 @@ use Persiang\Grids\DataProvider;
  * This component does not includes javascript & styles required to work with bootstrap-daterangepicker.
  * You need to include it manually to your pages/layout.
  *
- * @package Persiang\Grids\Components\Filters
+ * @package persiang\Grids\Components\Filters
  */
 class DateRangePicker extends Filter
 {

@@ -1,12 +1,12 @@
 <?php
-namespace Persiang\Grids\Components\Base;
+namespace persiang\Grids\Components\Base;
 
 /**
  * Class RenderableRegistry
  *
  * Base class for components that can hold children components and be rendered.
  *
- * @package Persiang\Grids\Components\Base
+ * @package persiang\Grids\Components\Base
  */
 class RenderableRegistry implements
     RenderableComponentInterface,

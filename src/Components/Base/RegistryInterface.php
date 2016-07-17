@@ -1,12 +1,12 @@
 <?php
-namespace Persiang\Grids\Components\Base;
+namespace persiang\Grids\Components\Base;
 
 /**
  * Interface RegistryInterface
  *
  * Interface of Grid components registry
  *
- * @package Persiang\Grids\Components\Base
+ * @package persiang\Grids\Components\Base
  */
 interface RegistryInterface
 {
