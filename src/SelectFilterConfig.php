@@ -1,6 +1,6 @@
 <?php
 
-namespace Nayjest\Grids;
+namespace persian\Grids;
 
 class SelectFilterConfig extends FilterConfig
 {

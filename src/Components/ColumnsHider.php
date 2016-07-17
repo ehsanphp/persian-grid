@@ -1,14 +1,14 @@
 <?php
-namespace Nayjest\Grids\Components;
+namespace persian\Grids\Components;
 
-use Nayjest\Grids\Components\Base\RenderableComponent;
+use persian\Grids\Components\Base\RenderableComponent;
 
 /**
  * Class ColumnsHider
  *
  * The component renders control for showing/hiding columns.
  *
- * @package Nayjest\Grids\Components
+ * @package persian\Grids\Components
  */
 class ColumnsHider extends RenderableComponent
 {

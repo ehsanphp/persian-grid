@@ -1,5 +1,5 @@
 {
-    "name": "nayjest/grids",
+    "name": "persian/grids",
     "description": "Grids for Laravel 4 & Laravel 5 frameworks",
     "keywords": [
         "grid",
@@ -12,12 +12,12 @@
         "laravel-5",
         "laravel5"
     ],
-    "homepage": "https://github.com/Nayjest/Grids",
+    "homepage": "https://github.com/persian/Grids",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Vitalii [Nayjest] Stepanenko",
+            "name": "Vitalii [persian] Stepanenko",
             "email": "mail@vitaliy.in",
             "role": "Developer"
         }
@@ -25,7 +25,7 @@
     "require": {
         "php": ">=5.4.0",
         "illuminate/support": ">=4.2",
-        "nayjest/builder": "~2"
+        "persian/builder": "~2"
     },
     "suggest": {
         "laravelcollective/html": "Required to work with Laravel 5.X",
@@ -33,13 +33,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Nayjest\\Grids\\": "src/"
+            "persian\\Grids\\": "src/"
         }
     },
     "support": {
         "email": "mail@vitaliy.in",
-        "source": "https://github.com/Nayjest/Grids",
-        "issues": "https://github.com/Nayjest/Grids/issues"
+        "source": "https://github.com/persian/Grids",
+        "issues": "https://github.com/persian/Grids/issues"
     },
     "minimum-stability": "dev"
 }

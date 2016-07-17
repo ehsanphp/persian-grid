@@ -1,9 +1,9 @@
 <?php
-namespace Nayjest\Grids;
+namespace persian\Grids;
 
 /**
  * Class DataProvider
- * @package Nayjest\Grids
+ * @package persian\Grids
  */
 abstract class DataProvider
 {

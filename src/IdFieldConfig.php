@@ -1,12 +1,12 @@
 <?php
-namespace Nayjest\Grids;
+namespace persian\Grids;
 
 /**
  * Class IdFieldConfig
  *
  * IdFieldConfig is a column type that will render a row number in table rows.
  *
- * @package Nayjest\Grids
+ * @package persian\Grids
  */
 class IdFieldConfig extends FieldConfig
 {

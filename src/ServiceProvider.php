@@ -1,4 +1,4 @@
-<?php namespace Nayjest\Grids;
+<?php namespace persian\Grids;
 
 use Illuminate\Foundation\Application;
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
@@ -35,7 +35,7 @@ class ServiceProvider extends BaseServiceProvider
 
         # only for Laravel 4 & some of 5-dev
         if (version_compare(Application::VERSION, '5.0.0', '<')) {
-            $this->package('nayjest/grids');
+            $this->package('persian/grids');
             $this->app['view']->addNamespace('grids', $views_path);
         } else {
             $this->loadViewsFrom($views_path, 'grids');
@@ -45,7 +45,7 @@ class ServiceProvider extends BaseServiceProvider
             ]);
         }
         if (!class_exists('Grids')) {
-            class_alias('\\Nayjest\\Grids\\Grids', '\\Grids');
+            class_alias('\\persian\\Grids\\Grids', '\\Grids');
         }
     }
 

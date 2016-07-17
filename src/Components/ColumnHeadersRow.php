@@ -1,14 +1,14 @@
 <?php
-namespace Nayjest\Grids\Components;
+namespace persian\Grids\Components;
 
-use Nayjest\Grids\Grid;
+use persian\Grids\Grid;
 
 /**
  * Class ColumnHeadersRow
  *
  * The component for rendering table row with column headers.
  *
- * @package Nayjest\Grids\Components
+ * @package persian\Grids\Components
  */
 class ColumnHeadersRow extends HtmlTag
 {

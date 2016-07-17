@@ -1,5 +1,5 @@
 <?php
-namespace Nayjest\Grids;
+namespace persian\Grids;
 
 use Illuminate\Database\Eloquent\Builder;
 use Event;

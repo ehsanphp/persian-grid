@@ -1,14 +1,14 @@
 <?php
-namespace Nayjest\Grids\Components;
+namespace persian\Grids\Components;
 
-use Nayjest\Grids\DataRowInterface;
+use persian\Grids\DataRowInterface;
 
 /**
  * Class Tr
  *
  * The component for rendering TR html tag inside grid.
  *
- * @package Nayjest\Grids\Components
+ * @package persian\Grids\Components
  */
 class Tr extends HtmlTag
 {

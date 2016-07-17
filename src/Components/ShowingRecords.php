@@ -1,14 +1,14 @@
 <?php
-namespace Nayjest\Grids\Components;
+namespace persian\Grids\Components;
 
-use Nayjest\Grids\Components\Base\RenderableComponent;
+use persian\Grids\Components\Base\RenderableComponent;
 
 /**
  * Class ShowingRecords
  *
  * Renders text: Showing records $from — $to of $total
  *
- * @package Nayjest\Grids\Components
+ * @package persian\Grids\Components
  */
 class ShowingRecords extends RenderableComponent
 {

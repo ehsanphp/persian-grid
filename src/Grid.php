@@ -1,10 +1,10 @@
 <?php
-namespace Nayjest\Grids;
+namespace persian\Grids;
 
 use Event;
 use Cache;
-use Nayjest\Grids\Components\TFoot;
-use Nayjest\Grids\Components\THead;
+use persian\Grids\Components\TFoot;
+use persian\Grids\Components\THead;
 use View;
 
 class Grid

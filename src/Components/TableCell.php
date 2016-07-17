@@ -1,15 +1,15 @@
 <?php
 
-namespace Nayjest\Grids\Components;
+namespace persian\Grids\Components;
 
-use Nayjest\Grids\FieldConfig;
+use persian\Grids\FieldConfig;
 
 /**
  * Class TableCell
  * 
  * The component for rendering TD html tag inside grid.
  *
- * @package Nayjest\Grids\Components
+ * @package persian\Grids\Components
  */
 class TableCell extends HtmlTag
 {
