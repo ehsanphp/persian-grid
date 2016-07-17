@@ -1,3 +1,3 @@
 <?php
-use persian\Grids\Grids as Base;
+use Persiang\Grids\Grids as Base;
 class Grids extends Base {}

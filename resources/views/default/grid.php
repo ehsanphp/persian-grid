@@ -1,7 +1,7 @@
 <form>
 <?php
-/** @var persian\Grids\DataProvider $data **/
-/** @var persian\Grids\Grid $grid **/
+/** @var Persiang\Grids\DataProvider $data **/
+/** @var Persiang\Grids\Grid $grid **/
 ?>
 <table class="table table-striped" id="<?= $grid->getConfig()->getName() ?>">
 <?= $grid->header() ? $grid->header()->render() : '' ?>

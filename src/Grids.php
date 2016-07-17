@@ -1,15 +1,15 @@
 <?php
-namespace persian\Grids;
+namespace Persiang\Grids;
 
-use persian\Builder\Env;
-use persian\Grids\Build\Setup;
+use Persiang\Builder\Env;
+use Persiang\Grids\Build\Setup;
 
 /**
  * Class Grids
  *
  * Facade for constructing grids using configurations.
  *
- * @package persian\Grids
+ * @package Persiang\Grids
  */
 class Grids {
 
@@ -18,7 +18,7 @@ class Grids {
     /**
      * Returns builder instance.
      *
-     * @return \persian\Builder\Builder
+     * @return \Persiang\Builder\Builder
      */
     protected static function getBuilder()
     {
@@ -47,7 +47,7 @@ class Grids {
      * Returns collection containing
      * blueprints required to construct grids from configuration.
      *
-     * @return \persian\Builder\BlueprintsCollection
+     * @return \Persiang\Builder\BlueprintsCollection
      */
     public static function blueprints()
     {

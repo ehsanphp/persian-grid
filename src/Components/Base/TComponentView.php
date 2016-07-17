@@ -1,5 +1,5 @@
 <?php
-namespace persian\Grids\Components\Base;
+namespace Persiang\Grids\Components\Base;
 
 trait TComponentView
 {

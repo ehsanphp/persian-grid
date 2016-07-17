@@ -1,5 +1,5 @@
 <?php
-namespace persian\Grids;
+namespace Persiang\Grids;
 
 use Illuminate\Support\Facades\Input;
 use Request;
@@ -10,7 +10,7 @@ use Form;
  *
  * This class manages input processing for grid.
  *
- * @package persian\Grids
+ * @package Persiang\Grids
  */
 class GridInputProcessor
 {

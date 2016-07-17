@@ -1,14 +1,14 @@
 <?php
-namespace persian\Grids;
+namespace Persiang\Grids;
 
 use Illuminate\Support\Collection;
-use persian\Grids\Components\Base\RenderableComponentInterface;
-use persian\Grids\Components\Base\TComponent;
-use persian\Grids\Components\Base\TRegistry;
-use persian\Grids\Components\Base\RegistryInterface;
-use persian\Grids\Components\TFoot;
-use persian\Grids\Components\THead;
-use persian\Grids\Components\Tr;
+use Persiang\Grids\Components\Base\RenderableComponentInterface;
+use Persiang\Grids\Components\Base\TComponent;
+use Persiang\Grids\Components\Base\TRegistry;
+use Persiang\Grids\Components\Base\RegistryInterface;
+use Persiang\Grids\Components\TFoot;
+use Persiang\Grids\Components\THead;
+use Persiang\Grids\Components\Tr;
 
 class GridConfig implements RegistryInterface
 {

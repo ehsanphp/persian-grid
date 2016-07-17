@@ -2,9 +2,9 @@
 /**
  * @author: Vitaliy Ofat <i@vitaliy-ofat.com>
  *
- * @var $grid persian\Grids\Grid
+ * @var $grid Persiang\Grids\Grid
  */
-use persian\Grids\Components\ExcelExport;
+use Persiang\Grids\Components\ExcelExport;
 ?>
 <span>
     <a

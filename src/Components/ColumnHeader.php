@@ -1,14 +1,14 @@
 <?php
-namespace persian\Grids\Components;
+namespace Persiang\Grids\Components;
 
-use persian\Grids\FieldConfig;
+use Persiang\Grids\FieldConfig;
 
 /**
  * Class ColumnHeader
  *
  * The component for rendering column header
  *
- * @package persian\Grids\Components
+ * @package Persiang\Grids\Components
  */
 class ColumnHeader extends TableCell
 {

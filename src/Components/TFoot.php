@@ -1,5 +1,5 @@
 <?php
-namespace persian\Grids\Components;
+namespace Persiang\Grids\Components;
 use Illuminate\Foundation\Application;
 
 /**
@@ -7,7 +7,7 @@ use Illuminate\Foundation\Application;
  *
  * The component for rendering TFOOT html tag inside grid.
  *
- * @package persian\Grids\Components
+ * @package Persiang\Grids\Components
  */
 class TFoot extends HtmlTag
 {
@@ -16,14 +16,14 @@ class TFoot extends HtmlTag
     /**
      * Returns default set of child components.
      *
-     * @return \persian\Grids\Components\Base\ComponentInterface[]
+     * @return \Persiang\Grids\Components\Base\ComponentInterface[]
      */
     protected function getDefaultComponents()
     {
         if (version_compare(Application::VERSION, '5', '<')) {
-            $pagerClass = 'persian\Grids\Components\Pager';
+            $pagerClass = 'Persiang\Grids\Components\Pager';
         } else {
-            $pagerClass = 'persian\Grids\Components\Laravel5\Pager';
+            $pagerClass = 'Persiang\Grids\Components\Laravel5\Pager';
         }
         return [
             (new OneCellRow)

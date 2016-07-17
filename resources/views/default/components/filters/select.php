@@ -1,5 +1,5 @@
 <?php
-/** @var persian\Grids\Components\SelectFilter $component */
+/** @var Persiang\Grids\Components\SelectFilter $component */
 ?>
 <?php if ($component->getLabel()): ?>
     <span><?= $component->getLabel() ?></span>

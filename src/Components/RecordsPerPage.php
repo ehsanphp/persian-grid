@@ -1,7 +1,7 @@
 <?php
-namespace persian\Grids\Components;
+namespace Persiang\Grids\Components;
 
-use persian\Grids\Components\Base\RenderableComponent;
+use Persiang\Grids\Components\Base\RenderableComponent;
 
 /**
  * Class RecordsPerPage
@@ -9,7 +9,7 @@ use persian\Grids\Components\Base\RenderableComponent;
  * The component renders control
  * for switching count of records displayed per page.
  *
- * @package persian\Grids\Components
+ * @package Persiang\Grids\Components
  */
 class RecordsPerPage extends RenderableComponent
 {

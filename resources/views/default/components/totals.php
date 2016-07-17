@@ -1,5 +1,5 @@
 <?php
-use persian\Grids\Components\TotalsRow;
+use Persiang\Grids\Components\TotalsRow;
 /** @var TotalsRow $component */
 ?>
 <tr>
@@ -12,13 +12,13 @@ use persian\Grids\Components\TotalsRow;
             if ($component->uses($column)):
                 $label = '';
                 switch($component->getFieldOperation($column->getName())) {
-                    case \persian\Grids\Components\TotalsRow::OPERATION_SUM:
+                    case \Persiang\Grids\Components\TotalsRow::OPERATION_SUM:
                         $label = '∑';
                         break;
-                    case \persian\Grids\Components\TotalsRow::OPERATION_COUNT:
+                    case \Persiang\Grids\Components\TotalsRow::OPERATION_COUNT:
                         $label = 'Count';
                         break;
-                    case \persian\Grids\Components\TotalsRow::OPERATION_AVG:
+                    case \Persiang\Grids\Components\TotalsRow::OPERATION_AVG:
                         $label = 'Avg.';
                         break;
                 }

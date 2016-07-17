@@ -1,19 +1,19 @@
 <?php
 
-namespace persian\Grids\Build\Instructions;
+namespace Persiang\Grids\Build\Instructions;
 
 use LogicException;
-use persian\Builder\Instructions\Base\Instruction;
-use persian\Builder\Scaffold;
+use Persiang\Builder\Instructions\Base\Instruction;
+use Persiang\Builder\Scaffold;
 
 /**
  * Class BuildDataProvider
  *
- * This class is a build instruction for persian/build package
+ * This class is a build instruction for Persiang/build package
  * that defines how to setup grids data provider
  *
  * @internal
- * @package persian\Grids\Build\Instructions
+ * @package Persiang\Grids\Build\Instructions
  */
 class BuildDataProvider extends Instruction
 {
@@ -32,10 +32,10 @@ class BuildDataProvider extends Instruction
 
         if (is_object($src)) {
             if (is_a($src, '\Illuminate\Database\Eloquent\Builder')) {
-                $class = '\persian\Grids\EloquentDataProvider';
+                $class = '\Persiang\Grids\EloquentDataProvider';
                 $arg = $src;
             } elseif (is_a($src, '\Doctrine\DBAL\Query\QueryBuilder')) {
-                $class = '\persian\Grids\DbalDataProvider';
+                $class = '\Persiang\Grids\DbalDataProvider';
                 $arg = $src;
             }
 
@@ -45,7 +45,7 @@ class BuildDataProvider extends Instruction
                 class_exists($src, true) &&
                 is_subclass_of($src, '\Illuminate\Database\Eloquent\Model')
             ) {
-                $class = '\persian\Grids\EloquentDataProvider';
+                $class = '\Persiang\Grids\EloquentDataProvider';
                 $model = new $src;
                 $arg = $model->newQuery();
             }

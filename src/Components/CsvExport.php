@@ -1,14 +1,14 @@
 <?php
 
-namespace persian\Grids\Components;
+namespace Persiang\Grids\Components;
 
 use Event;
 use Illuminate\Http\Response;
-use persian\Grids\Components\Base\RenderableComponent;
-use persian\Grids\Components\Base\RenderableRegistry;
-use persian\Grids\DataProvider;
-use persian\Grids\DataRow;
-use persian\Grids\Grid;
+use Persiang\Grids\Components\Base\RenderableComponent;
+use Persiang\Grids\Components\Base\RenderableRegistry;
+use Persiang\Grids\DataProvider;
+use Persiang\Grids\DataRow;
+use Persiang\Grids\Grid;
 
 /**
  * Class CsvExport
@@ -16,7 +16,7 @@ use persian\Grids\Grid;
  * The component provides control for exporting data to CSV.
  *
  * @author: Vitaliy Ofat <i@vitaliy-ofat.com>
- * @package persian\Grids\Components
+ * @package Persiang\Grids\Components
  */
 class CsvExport extends RenderableComponent
 {

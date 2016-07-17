@@ -1,10 +1,10 @@
 <?php
 
-namespace persian\Grids\Components;
+namespace Persiang\Grids\Components;
 
-use persian\Grids\Components\Base\RenderableComponent;
-use persian\Grids\Components\Base\RenderableRegistry;
-use persian\Grids\FieldConfig;
+use Persiang\Grids\Components\Base\RenderableComponent;
+use Persiang\Grids\Components\Base\RenderableRegistry;
+use Persiang\Grids\FieldConfig;
 
 /**
  * Class SortingControl
@@ -12,7 +12,7 @@ use persian\Grids\FieldConfig;
  * The component for rendering sorting controls
  * added to column header automatically when field is sortable.
  *
- * @package persian\Grids\Components
+ * @package Persiang\Grids\Components
  */
 class SortingControl extends RenderableComponent
 {

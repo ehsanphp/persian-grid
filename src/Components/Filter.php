@@ -1,8 +1,8 @@
 <?php
-namespace persian\Grids\Components;
+namespace Persiang\Grids\Components;
 
 
-use persian\Grids\Components\Base\RenderableComponent;
+use Persiang\Grids\Components\Base\RenderableComponent;
 
 class Filter extends RenderableComponent
 {

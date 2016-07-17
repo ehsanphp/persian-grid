@@ -1,42 +1,42 @@
 <?php
-namespace persian\Grids\Build;
+namespace Persiang\Grids\Build;
 
 use Closure;
 use DB;
 use LogicException;
-use persian\Builder\Blueprint;
-use persian\Builder\BlueprintsCollection;
-use persian\Builder\Builder;
-use persian\Builder\Env;
-use persian\Builder\Instructions\Base\Instruction;
-use persian\Builder\Instructions\Mapping\Build;
-use persian\Builder\Instructions\Mapping\BuildChildren;
-use persian\Builder\Instructions\CustomInstruction;
-use persian\Builder\Instructions\Mapping\CallMethodWith;
-use persian\Builder\Instructions\Mapping\CustomMapping;
-use persian\Builder\Instructions\Mapping\Rename;
-use persian\Builder\Instructions\SimpleValueAsField;
-use persian\Builder\Scaffold;
-use persian\Grids\Build\Instructions\BuildDataProvider;
-use persian\Grids\EloquentDataProvider;
+use Persiang\Builder\Blueprint;
+use Persiang\Builder\BlueprintsCollection;
+use Persiang\Builder\Builder;
+use Persiang\Builder\Env;
+use Persiang\Builder\Instructions\Base\Instruction;
+use Persiang\Builder\Instructions\Mapping\Build;
+use Persiang\Builder\Instructions\Mapping\BuildChildren;
+use Persiang\Builder\Instructions\CustomInstruction;
+use Persiang\Builder\Instructions\Mapping\CallMethodWith;
+use Persiang\Builder\Instructions\Mapping\CustomMapping;
+use Persiang\Builder\Instructions\Mapping\Rename;
+use Persiang\Builder\Instructions\SimpleValueAsField;
+use Persiang\Builder\Scaffold;
+use Persiang\Grids\Build\Instructions\BuildDataProvider;
+use Persiang\Grids\EloquentDataProvider;
 
 /**
  * Class Setup
  *
- * This class prepares environment for persian/builder package for usage with grids.
- * Integration with persian/builder package allows to construct grids from configuration in form of php array.
+ * This class prepares environment for Persiang/builder package for usage with grids.
+ * Integration with Persiang/builder package allows to construct grids from configuration in form of php array.
  *
  * @See \Grids::make
  *
  * @internal
- * @package persian\Grids\Build
+ * @package Persiang\Grids\Build
  */
 class Setup
 {
-    const COLUMN_CLASS = 'persian\Grids\FieldConfig';
-    const COMPONENT_CLASS = 'persian\Grids\Components\Base\ComponentInterface';
-    const GRID_CLASS = 'persian\Grids\GridConfig';
-    const FILTER_CLASS = 'persian\Grids\FilterConfig';
+    const COLUMN_CLASS = 'Persiang\Grids\FieldConfig';
+    const COMPONENT_CLASS = 'Persiang\Grids\Components\Base\ComponentInterface';
+    const GRID_CLASS = 'Persiang\Grids\GridConfig';
+    const FILTER_CLASS = 'Persiang\Grids\FilterConfig';
 
     /**
      * @var BlueprintsCollection
@@ -121,11 +121,11 @@ class Setup
 
             new CustomInstruction(function (Scaffold $s) {
                 if ($s->input instanceof Closure) {
-                    $s->class = 'persian\Grids\Components\RenderFunc';
+                    $s->class = 'Persiang\Grids\Components\RenderFunc';
                     $s->constructor_arguments = [$s->input];
                     $s->input = [];
                 } elseif (is_string($s->input)) {
-                    $s->class = 'persian\Grids\Components\RenderFunc';
+                    $s->class = 'Persiang\Grids\Components\RenderFunc';
                     $out = $s->input;
                     $s->constructor_arguments = [function () use ($out) {
                         return $out;
@@ -137,7 +137,7 @@ class Setup
                 if (strpos($type, '\\') !== false) {
                     $s->class = $type;
                 } else {
-                    $s->class = 'persian\Grids\Components\\' . str_replace(
+                    $s->class = 'Persiang\Grids\Components\\' . str_replace(
                             ' ',
                             '',
                             ucwords(str_replace(array('-', '_'), ' ', $type))
@@ -166,7 +166,7 @@ class Setup
             new CustomMapping('type', function ($type, Scaffold $s) {
                 switch($type) {
                     case 'select':
-                        $s->class = 'persian\Grids\SelectFilterConfig';
+                        $s->class = 'Persiang\Grids\SelectFilterConfig';
                         break;
                     default:
                         break;

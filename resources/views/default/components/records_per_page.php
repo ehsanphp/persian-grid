@@ -1,6 +1,6 @@
 <span>تعداد نمایش</span>
 <?php
-/** @var persian\Grids\Components\RecordsPerPage $component */
+/** @var Persiang\Grids\Components\RecordsPerPage $component */
 echo \Form::select(
     $component->getInputName(),
     $component->getVariants(),
