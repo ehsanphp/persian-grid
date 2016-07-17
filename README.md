@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Grids
 =====
 
@@ -446,3 +447,14 @@ Please see [License File](LICENSE) for more information.
 ##
 
 [![Flag Counter](http://s07.flagcounter.com/count/0LAb/bg_FFFFFF/txt_000000/border_FFFFFF/columns_8/maxflags_8/viewers_0/labels_0/pageviews_0/flags_0/percent_1/)](http://info.flagcounter.com/0LAb)
+=======
+# persian-grid
+
+laravel persian grid 
+
+Laravel Data Grid For Laravel 5.2 With Persian Language And Jalali Datetime 
+
+Orginal Package Forked From Nayjest/Grids 
+
+This Package Is Under Construction
+>>>>>>> d220d5d82997956373ba5568813d270d19d27825
